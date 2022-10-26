@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Tab Manager",
+  "description": "a tabs manager to organize your Chrome extension and Chrome Web store documentation tabs.",
+  "icons": {
+    "16": "icons.ico/favicon-16x16.png",
+    "32": "icons.ico/favicon-32x32.png",
+    "48": "icons.ico/favicon-48x48.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://developer.chrome.com/*"],
+  "permissions": ["tabGroups"]
+}
